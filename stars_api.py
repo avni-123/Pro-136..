@@ -1,5 +1,3 @@
-# Project continued in VS Code after Google Colab
-
 from flask import Flask, jsonify, request
 from data import data
 
@@ -20,8 +18,7 @@ def planet():
         "data" : star_data
     }),200
 
-# Link to view data for individual star: http://127.0.0.1:5000/star?star_name=#
-# Type the name of star you want to know more about in the url above instead of "#"
+# Link to view the data for individual star: http://127.0.0.1:5000/star?star_name=____
 
 if __name__ == "__main__":
     app.run()
